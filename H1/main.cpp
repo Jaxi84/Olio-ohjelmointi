@@ -40,7 +40,7 @@ void calcDiv(int a, int b) {
     //    if (b <= 0) {
     //        throw runtime_error("jakaja ei saa olla negatiivinen."); //tai nolla, eli jakajan pitää olla suurempi kuin nolla
     if (b == 0) {
-        throw runtime_error("jakaja ei saa olla nolla.");
+        throw runtime_error("jakaja ei saa olla nolla!");
     } else {
         int c = a / b;
         cout << "lukujen " << a << " ja " << b << " jakojaannos on: " << c << endl;
