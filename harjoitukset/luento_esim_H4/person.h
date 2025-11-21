@@ -12,7 +12,7 @@ private:
     //automaattinen olio, pino muistiin
     //refactor > include
     //Address objAddress;
-    //2-tehtävä sama unique_ptr:llä
+    //2-tehtävä sama unique_ptr:llä "vahva kooste"
     unique_ptr<Address> objAddress;
 
     string name;
